@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Engineer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">DevOps Portfolio</h1>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="https://via.placeholder.com/200" alt="Profile Picture" class="profile-img">
+            <h1>John DevOps</h1>
+            <h2>Senior DevOps Engineer</h2>
+            <p>Automating infrastructure, optimizing CI/CD pipelines, and building scalable cloud solutions</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#projects" class="btn btn-secondary">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Cloud Platforms</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">Google Cloud</span>
+                        <span class="skill-tag">Kubernetes</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>CI/CD & Automation</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">GitLab CI</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">ArgoCD</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Infrastructure as Code</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">Ansible</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Helm</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Monitoring & Logging</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Prometheus</span>
+                        <span class="skill-tag">Grafana</span>
+                        <span class="skill-tag">ELK Stack</span>
+                        <span class="skill-tag">Datadog</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>DevOps Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Multi-Cloud Kubernetes Cluster</h3>
+                    <p>Designed and implemented a hybrid Kubernetes cluster spanning AWS and GCP with automated scaling and monitoring.</p>
+                    <div class="tech-stack">
+                        <span>Kubernetes</span>
+                        <span>Terraform</span>
+                        <span>Helm</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>CI/CD Pipeline Optimization</h3>
+                    <p>Reduced deployment time by 70% through pipeline optimization and parallel testing strategies.</p>
+                    <div class="tech-stack">
+                        <span>Jenkins</span>
+                        <span>Docker</span>
+                        <span>Nexus</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Infrastructure Monitoring Stack</h3>
+                    <p>Implemented comprehensive monitoring using Prometheus, Grafana, and Alertmanager with custom dashboards.</p>
+                    <div class="tech-stack">
+                        <span>Prometheus</span>
+                        <span>Grafana</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Senior DevOps Engineer - TechCorp Inc.</h3>
+                    <span class="date">2022 - Present</span>
+                    <ul>
+                        <li>Led migration of on-prem infrastructure to AWS, reducing costs by 40%</li>
+                        <li>Implemented GitOps workflow using ArgoCD for 50+ microservices</li>
+                        <li>Designed and maintained Terraform modules for infrastructure provisioning</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <h3>DevOps Engineer - CloudSolutions Ltd.</h3>
+                    <span class="date">2020 - 2022</span>
+                    <ul>
+                        <li>Built and maintained CI/CD pipelines serving 100+ developers</li>
+                        <li>Implemented security scanning in SDLC using SAST and DAST tools</li>
+                        <li>Managed Kubernetes clusters with 500+ nodes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Connect with me</h3>
+                    <div class="contact-item">
+                        <strong>Email:</strong> john.devops@example.com
+                    </div>
+                    <div class="contact-item">
+                        <strong>LinkedIn:</strong> linkedin.com/in/johndevops
+                    </div>
+                    <div class="contact-item">
+                        <strong>GitHub:</strong> github.com/johndevops
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send a Message</h3>
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 John DevOps. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
